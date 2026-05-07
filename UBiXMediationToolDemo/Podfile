@@ -1,0 +1,116 @@
+source "https://github.com/cocoaPods/Specs.git"
+#source 'https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git'
+
+platform :ios, '12.0'
+
+workspace 'UBiXMediationToolDemo.xcworkspace'
+
+use_frameworks!
+inhibit_all_warnings!
+
+use_projects = true
+
+install! 'cocoapods',
+        :generate_multiple_pod_projects => use_projects
+
+target 'UBiXMediationToolDemo' do
+#  gm_release_target!
+#  pod 'UBiMAXAdSDK', :path=>'./UBiMAXSDK/', :subspecs => ['Core']
+
+   # 核心逻辑
+   pod 'UBiMAXAdSDK', '1.5.0'
+   # 开屏
+   pod 'UBiMAXSplash', '1.1.0'
+   # 信息流
+   pod 'UBiMAXNative', '1.1.1'
+   # 激励
+   pod 'UBiMAXRewardedVideo', '1.1.0'
+   # 插屏
+   pod 'UBiMAXInterstitial', '1.2.0'
+   # 横幅
+   pod 'UBiMAXBanner', '1.3.1'
+   # 测试工具
+   pod 'UBiMAXDebuggerUI', '1.0.1'
+   
+   # Gromore Adapter
+   pod 'UBiMAXGromoreAdapter', '7.5.0.4.0'
+   # 穿山甲 Adapter
+   #pod 'UBiMAXCSJAdapter', '7.5.0.4.0'
+   # 快手 Adapter
+   pod 'UBiMAXKSAdapter', '5.1.20.1.0'
+   # 优量汇 Adapter
+   pod 'UBiMAXGdtAdapter', '4.15.75.0'
+   # 百度 Adapter
+   pod 'UBiMAXBaiduAdapter', '10.040.0'
+   # 趣盟 Adapter
+   pod 'UBiMAXQuMengAdapter', '1.5.1.0.0'
+   # TopOn Adapter
+   pod 'UBiMAXTopOnAdapter', '6.5.42.0'
+   # Fancy
+   pod 'UBiMAXFancyAdapter', '2.3.6.0'
+   # 美数
+   pod 'UBiMAXMeiShuAdapter',   '3.0.7.3.0'
+   # 旺脉
+   pod 'UBiMAXWangMaiAdapter', '7.7.4.30.0'
+
+   #聚合Adx
+   pod 'UBiMAXAdxAdapter', '2.12.2.11.0'
+   pod 'UBiXMediationSDK', '2.12.2.11'
+   pod 'UBiXMKSAdapter', '5.1.20.1.0'
+   pod 'UBiXMUBiXAdapter', '2.10.0.11.0'
+   pod 'UBiXMBaiduAdapter', '10.040.0'
+   pod 'UBiXMGromoreAdapter', '7.5.0.4.0'
+#   pod 'UBiXMCSJAdapter', '7.5.0.4.0'
+   pod 'UBiXMGdtAdapter', '4.15.75.0'
+   pod 'UBiXMQMAdapter', '1.5.1.0.0'
+   pod 'UbiXMMeiYueAdapter', '5.8.53.0'
+   pod 'EdimobIOSAdsSDK', '5.8.53', :subspecs  => ['Core','CocoaHTTPServer','SDWebImage','Masonry','KSCrash','WechatOpenSDK']
+   pod 'UBiXMYoushiAdapter', '3.1.0.9.0'
+   pod 'UBiXMFancyAdapter', '2.3.6.0'
+   pod 'UBiXMWangMaiAdapter', '7.7.4.30.1'
+   pod 'UBiXMIFLYAdapter', '5.4.6.0'
+   # 亿帆SDK
+   pod 'YFAdsSDK/YFAdsSDK','6.1.1.0'
+   # 亿帆适配器
+   pod 'UBiMAXYiFanAdapter','6.1.1.0'
+   
+   
+   pod 'Bugly'
+   pod 'Masonry'
+   pod 'MJRefresh'
+   pod 'Protobuf', '3.27.2'
+   pod 'YYModel'
+   pod 'SDWebImage'
+
+   target 'UBiXMediationToolDemoTests' do
+     inherit! :search_paths
+   end
+end
+
+
+
+#target 'UbiXMediation' do
+#  pod 'UBiXDaq'
+#end
+
+post_install do |installer|
+  
+  # fix xcode 15 DT_TOOLCHAIN_DIR - remove after fix oficially - https://github.com/CocoaPods/CocoaPods/issues/12065
+  installer.aggregate_targets.each do |target|
+      target.xcconfigs.each do |variant, xcconfig|
+      xcconfig_path = target.client_root + target.xcconfig_relative_path(variant)
+      IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+      end
+  end
+
+  installer.pods_project.targets.each do |target|
+    
+    target.build_configurations.each do |config|
+      if config.base_configuration_reference.is_a? Xcodeproj::Project::Object::PBXFileReference
+          xcconfig_path = config.base_configuration_reference.real_path
+          IO.write(xcconfig_path, IO.read(xcconfig_path).gsub("DT_TOOLCHAIN_DIR", "TOOLCHAIN_DIR"))
+      end
+    end
+#    puts "#{target.name}"
+  end
+end

@@ -1,0 +1,1201 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46607F65A5B961A1E94B0F62 /* Pods_UBiXMediationToolDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78715FE1B43690427EFE88B0 /* Pods_UBiXMediationToolDemoTests.framework */; };
+		61E4BF5CB877B1B0F4F5CAFE /* Pods_UBiXMediationToolDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84325A1215071C7274CF1DF6 /* Pods_UBiXMediationToolDemo.framework */; };
+		6D65E7472C69B3FB008B9B67 /* UMTDLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D65E7462C69B3FB008B9B67 /* UMTDLogger.m */; };
+		6DA6619A2C855AE80008AC74 /* UMTDSelfRenderNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA661992C855AE80008AC74 /* UMTDSelfRenderNativeView.m */; };
+		6DA6619E2C855B370008AC74 /* UMTDNativeCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA6619D2C855B370008AC74 /* UMTDNativeCellModel.m */; };
+		6DA9DC642C77351200436B61 /* UbixMDBulletScreenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9DC602C77351200436B61 /* UbixMDBulletScreenManager.m */; };
+		6DA9DC652C77351200436B61 /* UbixMDBulletScreenModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9DC632C77351200436B61 /* UbixMDBulletScreenModel.m */; };
+		6DA9E4132C7ED79200436B61 /* UMTDNativeAdViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DA9E4122C7ED79200436B61 /* UMTDNativeAdViewCell.m */; };
+		6DAFD0342D3761250039F985 /* UMTDCustomKSNativeHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0252D3761250039F985 /* UMTDCustomKSNativeHelper.m */; };
+		6DAFD0352D3761250039F985 /* UMTDCustomKSBaseAdAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0302D3761250039F985 /* UMTDCustomKSBaseAdAdapter.m */; };
+		6DAFD0362D3761250039F985 /* UMTDCustomKSRewardAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD02A2D3761250039F985 /* UMTDCustomKSRewardAdapter.m */; };
+		6DAFD0372D3761250039F985 /* UMTDCustomKSConfigAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0322D3761250039F985 /* UMTDCustomKSConfigAdapter.m */; };
+		6DAFD0382D3761250039F985 /* UMTDCustomNativeAdapter+Express.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0272D3761250039F985 /* UMTDCustomNativeAdapter+Express.m */; };
+		6DAFD0392D3761250039F985 /* UMTDCustomKSNativeAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0232D3761250039F985 /* UMTDCustomKSNativeAdapter.m */; };
+		6DAFD03A2D3761250039F985 /* UMTDCustomKSInterstitialAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD0202D3761250039F985 /* UMTDCustomKSInterstitialAdapter.m */; };
+		6DAFD03B2D3761250039F985 /* UMTDCustomKSSplashAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DAFD02D2D3761250039F985 /* UMTDCustomKSSplashAdapter.m */; };
+		6DCF48022DFAE86E003E6C44 /* UMTDAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DCF48012DFAE86E003E6C44 /* UMTDAuthViewController.m */; };
+		6DDAE15F2C5B68A500361882 /* UMTDAdBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE15E2C5B68A500361882 /* UMTDAdBaseViewController.m */; };
+		6DDAE1622C5B68D000361882 /* UMTDSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE1612C5B68D000361882 /* UMTDSplashViewController.m */; };
+		6DDAE1662C5B6C2000361882 /* UMTDNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE1652C5B6C2000361882 /* UMTDNativeViewController.m */; };
+		6DDAE1692C5B6C3300361882 /* UMTDRewardedVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE1682C5B6C3300361882 /* UMTDRewardedVideoViewController.m */; };
+		6DDAE16C2C5B6C4600361882 /* UMTDInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE16B2C5B6C4600361882 /* UMTDInterstitialViewController.m */; };
+		6DDAE16F2C5B7BAE00361882 /* UMTDBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DDAE16E2C5B7BAE00361882 /* UMTDBaseViewController.m */; };
+		6DEF21CB2C352FAE00C6A5EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21CA2C352FAE00C6A5EE /* AppDelegate.m */; };
+		6DEF21CE2C352FAE00C6A5EE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21CD2C352FAE00C6A5EE /* SceneDelegate.m */; };
+		6DEF21D12C352FAE00C6A5EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21D02C352FAE00C6A5EE /* ViewController.m */; };
+		6DEF21D42C352FAE00C6A5EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF21D22C352FAE00C6A5EE /* Main.storyboard */; };
+		6DEF21D62C352FB100C6A5EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF21D52C352FB100C6A5EE /* Assets.xcassets */; };
+		6DEF21D92C352FB100C6A5EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6DEF21D72C352FB100C6A5EE /* LaunchScreen.storyboard */; };
+		6DEF21DC2C352FB100C6A5EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21DB2C352FB100C6A5EE /* main.m */; };
+		6DEF21E62C352FB100C6A5EE /* UBiXMediationToolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21E52C352FB100C6A5EE /* UBiXMediationToolDemoTests.m */; };
+		6DEF21F02C352FB100C6A5EE /* UBiXMediationToolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21EF2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.m */; };
+		6DEF21F22C352FB100C6A5EE /* UBiXMediationToolDemoUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DEF21F12C352FB100C6A5EE /* UBiXMediationToolDemoUITestsLaunchTests.m */; };
+		96A9B3F22F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9B3F02F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.m */; };
+		96A9BFF92F5AC7DC00E4C77E /* UMTDBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96A9BFF82F5AC7DC00E4C77E /* UMTDBannerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6DEF21E22C352FB100C6A5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DEF21BE2C352FAE00C6A5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEF21C52C352FAE00C6A5EE;
+			remoteInfo = UBiXMediationToolDemo;
+		};
+		6DEF21EC2C352FB100C6A5EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DEF21BE2C352FAE00C6A5EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6DEF21C52C352FAE00C6A5EE;
+			remoteInfo = UBiXMediationToolDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B81ED12FAC71D7008B56BE /* OneAdSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = OneAdSDK.xcframework; path = Pods/UBiXMOneAdSDK/OneAdSDK/OneAdSDK.xcframework; sourceTree = "<group>"; };
+		03C366082FAC6F14009A7F2D /* YFAdsSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YFAdsSDK.xcframework; path = Pods/YFAdsSDK/YFAdsSDKS/YFAdsSDK/YFAdsSDK.xcframework; sourceTree = "<group>"; };
+		03C366092FAC6F14009A7F2D /* YFAdsSubstrate.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = YFAdsSubstrate.xcframework; path = Pods/YFAdsSDK/YFAdsSDKS/YFAdsSubstrate/YFAdsSubstrate.xcframework; sourceTree = "<group>"; };
+		03C474522FAC908200EACCFF /* UBiMAXYiFanAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UBiMAXYiFanAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2233B5DB6033C1CC21067D8F /* Pods-UBiMAXYiFanAdapter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiMAXYiFanAdapter.debug.xcconfig"; path = "Target Support Files/Pods-UBiMAXYiFanAdapter/Pods-UBiMAXYiFanAdapter.debug.xcconfig"; sourceTree = "<group>"; };
+		4D503828AEA3943BA8AE10C2 /* Pods-UBiXMediationToolDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiXMediationToolDemoTests.release.xcconfig"; path = "Target Support Files/Pods-UBiXMediationToolDemoTests/Pods-UBiXMediationToolDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		64CD94A0E603C060743B96EB /* Pods-UBiMAXYiFanAdapter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiMAXYiFanAdapter.release.xcconfig"; path = "Target Support Files/Pods-UBiMAXYiFanAdapter/Pods-UBiMAXYiFanAdapter.release.xcconfig"; sourceTree = "<group>"; };
+		6D65E7452C69B3FB008B9B67 /* UMTDLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDLogger.h; sourceTree = "<group>"; };
+		6D65E7462C69B3FB008B9B67 /* UMTDLogger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDLogger.m; sourceTree = "<group>"; };
+		6DA661982C855AE80008AC74 /* UMTDSelfRenderNativeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDSelfRenderNativeView.h; sourceTree = "<group>"; };
+		6DA661992C855AE80008AC74 /* UMTDSelfRenderNativeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDSelfRenderNativeView.m; sourceTree = "<group>"; };
+		6DA6619C2C855B370008AC74 /* UMTDNativeCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDNativeCellModel.h; sourceTree = "<group>"; };
+		6DA6619D2C855B370008AC74 /* UMTDNativeCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDNativeCellModel.m; sourceTree = "<group>"; };
+		6DA9DC602C77351200436B61 /* UbixMDBulletScreenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbixMDBulletScreenManager.m; sourceTree = "<group>"; };
+		6DA9DC612C77351200436B61 /* UbixMDBulletScreenModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbixMDBulletScreenModel.h; sourceTree = "<group>"; };
+		6DA9DC622C77351200436B61 /* UbixMDBulletScreenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UbixMDBulletScreenManager.h; sourceTree = "<group>"; };
+		6DA9DC632C77351200436B61 /* UbixMDBulletScreenModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UbixMDBulletScreenModel.m; sourceTree = "<group>"; };
+		6DA9E4112C7ED79200436B61 /* UMTDNativeAdViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDNativeAdViewCell.h; sourceTree = "<group>"; };
+		6DA9E4122C7ED79200436B61 /* UMTDNativeAdViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDNativeAdViewCell.m; sourceTree = "<group>"; };
+		6DAFD01F2D3761250039F985 /* UMTDCustomKSInterstitialAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSInterstitialAdapter.h; sourceTree = "<group>"; };
+		6DAFD0202D3761250039F985 /* UMTDCustomKSInterstitialAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSInterstitialAdapter.m; sourceTree = "<group>"; };
+		6DAFD0222D3761250039F985 /* UMTDCustomKSNativeAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSNativeAdapter.h; sourceTree = "<group>"; };
+		6DAFD0232D3761250039F985 /* UMTDCustomKSNativeAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSNativeAdapter.m; sourceTree = "<group>"; };
+		6DAFD0242D3761250039F985 /* UMTDCustomKSNativeHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSNativeHelper.h; sourceTree = "<group>"; };
+		6DAFD0252D3761250039F985 /* UMTDCustomKSNativeHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSNativeHelper.m; sourceTree = "<group>"; };
+		6DAFD0262D3761250039F985 /* UMTDCustomNativeAdapter+Express.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UMTDCustomNativeAdapter+Express.h"; sourceTree = "<group>"; };
+		6DAFD0272D3761250039F985 /* UMTDCustomNativeAdapter+Express.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UMTDCustomNativeAdapter+Express.m"; sourceTree = "<group>"; };
+		6DAFD0292D3761250039F985 /* UMTDCustomKSRewardAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSRewardAdapter.h; sourceTree = "<group>"; };
+		6DAFD02A2D3761250039F985 /* UMTDCustomKSRewardAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSRewardAdapter.m; sourceTree = "<group>"; };
+		6DAFD02C2D3761250039F985 /* UMTDCustomKSSplashAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSSplashAdapter.h; sourceTree = "<group>"; };
+		6DAFD02D2D3761250039F985 /* UMTDCustomKSSplashAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSSplashAdapter.m; sourceTree = "<group>"; };
+		6DAFD02F2D3761250039F985 /* UMTDCustomKSBaseAdAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSBaseAdAdapter.h; sourceTree = "<group>"; };
+		6DAFD0302D3761250039F985 /* UMTDCustomKSBaseAdAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSBaseAdAdapter.m; sourceTree = "<group>"; };
+		6DAFD0312D3761250039F985 /* UMTDCustomKSConfigAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSConfigAdapter.h; sourceTree = "<group>"; };
+		6DAFD0322D3761250039F985 /* UMTDCustomKSConfigAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSConfigAdapter.m; sourceTree = "<group>"; };
+		6DCF48002DFAE86E003E6C44 /* UMTDAuthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDAuthViewController.h; sourceTree = "<group>"; };
+		6DCF48012DFAE86E003E6C44 /* UMTDAuthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDAuthViewController.m; sourceTree = "<group>"; };
+		6DDAE15D2C5B68A500361882 /* UMTDAdBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDAdBaseViewController.h; sourceTree = "<group>"; };
+		6DDAE15E2C5B68A500361882 /* UMTDAdBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDAdBaseViewController.m; sourceTree = "<group>"; };
+		6DDAE1602C5B68D000361882 /* UMTDSplashViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDSplashViewController.h; sourceTree = "<group>"; };
+		6DDAE1612C5B68D000361882 /* UMTDSplashViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDSplashViewController.m; sourceTree = "<group>"; };
+		6DDAE1632C5B6A6E00361882 /* UMTDSlotIdDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDSlotIdDefines.h; sourceTree = "<group>"; };
+		6DDAE1642C5B6C2000361882 /* UMTDNativeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDNativeViewController.h; sourceTree = "<group>"; };
+		6DDAE1652C5B6C2000361882 /* UMTDNativeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDNativeViewController.m; sourceTree = "<group>"; };
+		6DDAE1672C5B6C3300361882 /* UMTDRewardedVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDRewardedVideoViewController.h; sourceTree = "<group>"; };
+		6DDAE1682C5B6C3300361882 /* UMTDRewardedVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDRewardedVideoViewController.m; sourceTree = "<group>"; };
+		6DDAE16A2C5B6C4600361882 /* UMTDInterstitialViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDInterstitialViewController.h; sourceTree = "<group>"; };
+		6DDAE16B2C5B6C4600361882 /* UMTDInterstitialViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDInterstitialViewController.m; sourceTree = "<group>"; };
+		6DDAE16D2C5B7BAE00361882 /* UMTDBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDBaseViewController.h; sourceTree = "<group>"; };
+		6DDAE16E2C5B7BAE00361882 /* UMTDBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDBaseViewController.m; sourceTree = "<group>"; };
+		6DEF21C62C352FAE00C6A5EE /* UBiMAX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UBiMAX.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEF21C92C352FAE00C6A5EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6DEF21CA2C352FAE00C6A5EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6DEF21CC2C352FAE00C6A5EE /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		6DEF21CD2C352FAE00C6A5EE /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		6DEF21CF2C352FAE00C6A5EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6DEF21D02C352FAE00C6A5EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6DEF21D32C352FAE00C6A5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6DEF21D52C352FB100C6A5EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6DEF21D82C352FB100C6A5EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6DEF21DA2C352FB100C6A5EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DEF21DB2C352FB100C6A5EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6DEF21E12C352FB100C6A5EE /* UBiXMediationToolDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBiXMediationToolDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEF21E52C352FB100C6A5EE /* UBiXMediationToolDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBiXMediationToolDemoTests.m; sourceTree = "<group>"; };
+		6DEF21EB2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UBiXMediationToolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEF21EF2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBiXMediationToolDemoUITests.m; sourceTree = "<group>"; };
+		6DEF21F12C352FB100C6A5EE /* UBiXMediationToolDemoUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBiXMediationToolDemoUITestsLaunchTests.m; sourceTree = "<group>"; };
+		78715FE1B43690427EFE88B0 /* Pods_UBiXMediationToolDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBiXMediationToolDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BA232893520C8009792C8C4 /* Pods-UBiXMediationToolDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiXMediationToolDemo.release.xcconfig"; path = "Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84325A1215071C7274CF1DF6 /* Pods_UBiXMediationToolDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBiXMediationToolDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96A9B3EF2F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDCustomKSBannerAdapter.h; sourceTree = "<group>"; };
+		96A9B3F02F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDCustomKSBannerAdapter.m; sourceTree = "<group>"; };
+		96A9BFF72F5AC7DC00E4C77E /* UMTDBannerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMTDBannerViewController.h; sourceTree = "<group>"; };
+		96A9BFF82F5AC7DC00E4C77E /* UMTDBannerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMTDBannerViewController.m; sourceTree = "<group>"; };
+		A612FACABD8F51E9DD13FC0E /* Pods_UBiMAXYiFanAdapter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UBiMAXYiFanAdapter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B735E06438E311CCBCBDB171 /* Pods-UBiXMediationToolDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiXMediationToolDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UBiXMediationToolDemoTests/Pods-UBiXMediationToolDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FAAD07A9EE4E44EBE064363B /* Pods-UBiXMediationToolDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UBiXMediationToolDemo.debug.xcconfig"; path = "Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6DEF21C32C352FAE00C6A5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4BF5CB877B1B0F4F5CAFE /* Pods_UBiXMediationToolDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21DE2C352FB100C6A5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46607F65A5B961A1E94B0F62 /* Pods_UBiXMediationToolDemoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21E82C352FB100C6A5EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0ABF5AE1BCFE4C9F42B8BB57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FAAD07A9EE4E44EBE064363B /* Pods-UBiXMediationToolDemo.debug.xcconfig */,
+				7BA232893520C8009792C8C4 /* Pods-UBiXMediationToolDemo.release.xcconfig */,
+				B735E06438E311CCBCBDB171 /* Pods-UBiXMediationToolDemoTests.debug.xcconfig */,
+				4D503828AEA3943BA8AE10C2 /* Pods-UBiXMediationToolDemoTests.release.xcconfig */,
+				2233B5DB6033C1CC21067D8F /* Pods-UBiMAXYiFanAdapter.debug.xcconfig */,
+				64CD94A0E603C060743B96EB /* Pods-UBiMAXYiFanAdapter.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1704F18F05EB138C504CE173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				03C474522FAC908200EACCFF /* UBiMAXYiFanAdapter.framework */,
+				03B81ED12FAC71D7008B56BE /* OneAdSDK.xcframework */,
+				03C366082FAC6F14009A7F2D /* YFAdsSDK.xcframework */,
+				03C366092FAC6F14009A7F2D /* YFAdsSubstrate.xcframework */,
+				84325A1215071C7274CF1DF6 /* Pods_UBiXMediationToolDemo.framework */,
+				78715FE1B43690427EFE88B0 /* Pods_UBiXMediationToolDemoTests.framework */,
+				A612FACABD8F51E9DD13FC0E /* Pods_UBiMAXYiFanAdapter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DA661972C855A9D0008AC74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9E4112C7ED79200436B61 /* UMTDNativeAdViewCell.h */,
+				6DA9E4122C7ED79200436B61 /* UMTDNativeAdViewCell.m */,
+				6DA661982C855AE80008AC74 /* UMTDSelfRenderNativeView.h */,
+				6DA661992C855AE80008AC74 /* UMTDSelfRenderNativeView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6DA6619B2C855B090008AC74 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6DA6619C2C855B370008AC74 /* UMTDNativeCellModel.h */,
+				6DA6619D2C855B370008AC74 /* UMTDNativeCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6DA9DC5F2C77351200436B61 /* BulletScreen */ = {
+			isa = PBXGroup;
+			children = (
+				6DA9DC602C77351200436B61 /* UbixMDBulletScreenManager.m */,
+				6DA9DC612C77351200436B61 /* UbixMDBulletScreenModel.h */,
+				6DA9DC622C77351200436B61 /* UbixMDBulletScreenManager.h */,
+				6DA9DC632C77351200436B61 /* UbixMDBulletScreenModel.m */,
+			);
+			path = BulletScreen;
+			sourceTree = "<group>";
+		};
+		6DAFD0212D3761250039F985 /* Interstitial */ = {
+			isa = PBXGroup;
+			children = (
+				6DAFD01F2D3761250039F985 /* UMTDCustomKSInterstitialAdapter.h */,
+				6DAFD0202D3761250039F985 /* UMTDCustomKSInterstitialAdapter.m */,
+			);
+			path = Interstitial;
+			sourceTree = "<group>";
+		};
+		6DAFD0282D3761250039F985 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				6DAFD0222D3761250039F985 /* UMTDCustomKSNativeAdapter.h */,
+				6DAFD0232D3761250039F985 /* UMTDCustomKSNativeAdapter.m */,
+				6DAFD0242D3761250039F985 /* UMTDCustomKSNativeHelper.h */,
+				6DAFD0252D3761250039F985 /* UMTDCustomKSNativeHelper.m */,
+				6DAFD0262D3761250039F985 /* UMTDCustomNativeAdapter+Express.h */,
+				6DAFD0272D3761250039F985 /* UMTDCustomNativeAdapter+Express.m */,
+			);
+			path = Native;
+			sourceTree = "<group>";
+		};
+		6DAFD02B2D3761250039F985 /* RewardedVideo */ = {
+			isa = PBXGroup;
+			children = (
+				6DAFD0292D3761250039F985 /* UMTDCustomKSRewardAdapter.h */,
+				6DAFD02A2D3761250039F985 /* UMTDCustomKSRewardAdapter.m */,
+			);
+			path = RewardedVideo;
+			sourceTree = "<group>";
+		};
+		6DAFD02E2D3761250039F985 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				6DAFD02C2D3761250039F985 /* UMTDCustomKSSplashAdapter.h */,
+				6DAFD02D2D3761250039F985 /* UMTDCustomKSSplashAdapter.m */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		6DAFD0332D3761250039F985 /* CustomAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				96A9B3F12F5ABA5E00E4C77E /* Banner */,
+				6DAFD0212D3761250039F985 /* Interstitial */,
+				6DAFD0282D3761250039F985 /* Native */,
+				6DAFD02B2D3761250039F985 /* RewardedVideo */,
+				6DAFD02E2D3761250039F985 /* Splash */,
+				6DAFD02F2D3761250039F985 /* UMTDCustomKSBaseAdAdapter.h */,
+				6DAFD0302D3761250039F985 /* UMTDCustomKSBaseAdAdapter.m */,
+				6DAFD0312D3761250039F985 /* UMTDCustomKSConfigAdapter.h */,
+				6DAFD0322D3761250039F985 /* UMTDCustomKSConfigAdapter.m */,
+			);
+			path = CustomAdapter;
+			sourceTree = "<group>";
+		};
+		6DEF21BD2C352FAE00C6A5EE = {
+			isa = PBXGroup;
+			children = (
+				6DEF21C82C352FAE00C6A5EE /* UBiXMediationToolDemo */,
+				6DEF21E42C352FB100C6A5EE /* UBiXMediationToolDemoTests */,
+				6DEF21EE2C352FB100C6A5EE /* UBiXMediationToolDemoUITests */,
+				6DEF21C72C352FAE00C6A5EE /* Products */,
+				0ABF5AE1BCFE4C9F42B8BB57 /* Pods */,
+				1704F18F05EB138C504CE173 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6DEF21C72C352FAE00C6A5EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF21C62C352FAE00C6A5EE /* UBiMAX.app */,
+				6DEF21E12C352FB100C6A5EE /* UBiXMediationToolDemoTests.xctest */,
+				6DEF21EB2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6DEF21C82C352FAE00C6A5EE /* UBiXMediationToolDemo */ = {
+			isa = PBXGroup;
+			children = (
+				6DCF48002DFAE86E003E6C44 /* UMTDAuthViewController.h */,
+				6DCF48012DFAE86E003E6C44 /* UMTDAuthViewController.m */,
+				6DAFD0332D3761250039F985 /* CustomAdapter */,
+				6DA9DC5F2C77351200436B61 /* BulletScreen */,
+				6DEF21C92C352FAE00C6A5EE /* AppDelegate.h */,
+				6DEF21CA2C352FAE00C6A5EE /* AppDelegate.m */,
+				6D65E7452C69B3FB008B9B67 /* UMTDLogger.h */,
+				96A9BFF72F5AC7DC00E4C77E /* UMTDBannerViewController.h */,
+				96A9BFF82F5AC7DC00E4C77E /* UMTDBannerViewController.m */,
+				6D65E7462C69B3FB008B9B67 /* UMTDLogger.m */,
+				6DEF21CC2C352FAE00C6A5EE /* SceneDelegate.h */,
+				6DEF21CD2C352FAE00C6A5EE /* SceneDelegate.m */,
+				6DDAE1632C5B6A6E00361882 /* UMTDSlotIdDefines.h */,
+				6DEF21CF2C352FAE00C6A5EE /* ViewController.h */,
+				6DEF21D02C352FAE00C6A5EE /* ViewController.m */,
+				6DDAE15D2C5B68A500361882 /* UMTDAdBaseViewController.h */,
+				6DDAE15E2C5B68A500361882 /* UMTDAdBaseViewController.m */,
+				6DDAE16D2C5B7BAE00361882 /* UMTDBaseViewController.h */,
+				6DDAE16E2C5B7BAE00361882 /* UMTDBaseViewController.m */,
+				6DDAE1602C5B68D000361882 /* UMTDSplashViewController.h */,
+				6DDAE1612C5B68D000361882 /* UMTDSplashViewController.m */,
+				6DDAE1642C5B6C2000361882 /* UMTDNativeViewController.h */,
+				6DDAE1652C5B6C2000361882 /* UMTDNativeViewController.m */,
+				6DA6619B2C855B090008AC74 /* Model */,
+				6DA661972C855A9D0008AC74 /* View */,
+				6DDAE1672C5B6C3300361882 /* UMTDRewardedVideoViewController.h */,
+				6DDAE1682C5B6C3300361882 /* UMTDRewardedVideoViewController.m */,
+				6DDAE16A2C5B6C4600361882 /* UMTDInterstitialViewController.h */,
+				6DDAE16B2C5B6C4600361882 /* UMTDInterstitialViewController.m */,
+				6DEF21D22C352FAE00C6A5EE /* Main.storyboard */,
+				6DEF21D52C352FB100C6A5EE /* Assets.xcassets */,
+				6DEF21D72C352FB100C6A5EE /* LaunchScreen.storyboard */,
+				6DEF21DA2C352FB100C6A5EE /* Info.plist */,
+				6DEF21DB2C352FB100C6A5EE /* main.m */,
+			);
+			path = UBiXMediationToolDemo;
+			sourceTree = "<group>";
+		};
+		6DEF21E42C352FB100C6A5EE /* UBiXMediationToolDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF21E52C352FB100C6A5EE /* UBiXMediationToolDemoTests.m */,
+			);
+			path = UBiXMediationToolDemoTests;
+			sourceTree = "<group>";
+		};
+		6DEF21EE2C352FB100C6A5EE /* UBiXMediationToolDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6DEF21EF2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.m */,
+				6DEF21F12C352FB100C6A5EE /* UBiXMediationToolDemoUITestsLaunchTests.m */,
+			);
+			path = UBiXMediationToolDemoUITests;
+			sourceTree = "<group>";
+		};
+		96A9B3F12F5ABA5E00E4C77E /* Banner */ = {
+			isa = PBXGroup;
+			children = (
+				96A9B3EF2F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.h */,
+				96A9B3F02F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.m */,
+			);
+			path = Banner;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6DEF21C52C352FAE00C6A5EE /* UBiXMediationToolDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEF21F52C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemo" */;
+			buildPhases = (
+				91FEABDF92DC481A759A5642 /* [CP] Check Pods Manifest.lock */,
+				6DEF21C22C352FAE00C6A5EE /* Sources */,
+				6DEF21C32C352FAE00C6A5EE /* Frameworks */,
+				6DEF21C42C352FAE00C6A5EE /* Resources */,
+				3E535A96EDED8605DD7A4A9B /* [CP] Embed Pods Frameworks */,
+				3410D5F5BCB9C92313461A58 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UBiXMediationToolDemo;
+			productName = UBiXMediationToolDemo;
+			productReference = 6DEF21C62C352FAE00C6A5EE /* UBiMAX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6DEF21E02C352FB100C6A5EE /* UBiXMediationToolDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEF21F82C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemoTests" */;
+			buildPhases = (
+				486D03A0165D5AAF140B2E64 /* [CP] Check Pods Manifest.lock */,
+				6DEF21DD2C352FB100C6A5EE /* Sources */,
+				6DEF21DE2C352FB100C6A5EE /* Frameworks */,
+				6DEF21DF2C352FB100C6A5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DEF21E32C352FB100C6A5EE /* PBXTargetDependency */,
+			);
+			name = UBiXMediationToolDemoTests;
+			productName = UBiXMediationToolDemoTests;
+			productReference = 6DEF21E12C352FB100C6A5EE /* UBiXMediationToolDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6DEF21EA2C352FB100C6A5EE /* UBiXMediationToolDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DEF21FB2C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemoUITests" */;
+			buildPhases = (
+				6DEF21E72C352FB100C6A5EE /* Sources */,
+				6DEF21E82C352FB100C6A5EE /* Frameworks */,
+				6DEF21E92C352FB100C6A5EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6DEF21ED2C352FB100C6A5EE /* PBXTargetDependency */,
+			);
+			name = UBiXMediationToolDemoUITests;
+			productName = UBiXMediationToolDemoUITests;
+			productReference = 6DEF21EB2C352FB100C6A5EE /* UBiXMediationToolDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DEF21BE2C352FAE00C6A5EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6DEF21C52C352FAE00C6A5EE = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6DEF21E02C352FB100C6A5EE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6DEF21C52C352FAE00C6A5EE;
+					};
+					6DEF21EA2C352FB100C6A5EE = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 6DEF21C52C352FAE00C6A5EE;
+					};
+				};
+			};
+			buildConfigurationList = 6DEF21C12C352FAE00C6A5EE /* Build configuration list for PBXProject "UBiXMediationToolDemo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6DEF21BD2C352FAE00C6A5EE;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 6DEF21C72C352FAE00C6A5EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6DEF21C52C352FAE00C6A5EE /* UBiXMediationToolDemo */,
+				6DEF21E02C352FB100C6A5EE /* UBiXMediationToolDemoTests */,
+				6DEF21EA2C352FB100C6A5EE /* UBiXMediationToolDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6DEF21C42C352FAE00C6A5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF21D92C352FB100C6A5EE /* LaunchScreen.storyboard in Resources */,
+				6DEF21D62C352FB100C6A5EE /* Assets.xcassets in Resources */,
+				6DEF21D42C352FAE00C6A5EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21DF2C352FB100C6A5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21E92C352FB100C6A5EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3410D5F5BCB9C92313461A58 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E535A96EDED8605DD7A4A9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UBiXMediationToolDemo/Pods-UBiXMediationToolDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		486D03A0165D5AAF140B2E64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UBiXMediationToolDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91FEABDF92DC481A759A5642 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UBiXMediationToolDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6DEF21C22C352FAE00C6A5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF21D12C352FAE00C6A5EE /* ViewController.m in Sources */,
+				6DDAE16F2C5B7BAE00361882 /* UMTDBaseViewController.m in Sources */,
+				6DA6619E2C855B370008AC74 /* UMTDNativeCellModel.m in Sources */,
+				6D65E7472C69B3FB008B9B67 /* UMTDLogger.m in Sources */,
+				6DAFD0342D3761250039F985 /* UMTDCustomKSNativeHelper.m in Sources */,
+				6DAFD0352D3761250039F985 /* UMTDCustomKSBaseAdAdapter.m in Sources */,
+				6DAFD0362D3761250039F985 /* UMTDCustomKSRewardAdapter.m in Sources */,
+				6DAFD0372D3761250039F985 /* UMTDCustomKSConfigAdapter.m in Sources */,
+				6DAFD0382D3761250039F985 /* UMTDCustomNativeAdapter+Express.m in Sources */,
+				6DAFD0392D3761250039F985 /* UMTDCustomKSNativeAdapter.m in Sources */,
+				96A9B3F22F5ABA5E00E4C77E /* UMTDCustomKSBannerAdapter.m in Sources */,
+				6DAFD03A2D3761250039F985 /* UMTDCustomKSInterstitialAdapter.m in Sources */,
+				6DAFD03B2D3761250039F985 /* UMTDCustomKSSplashAdapter.m in Sources */,
+				6DDAE1622C5B68D000361882 /* UMTDSplashViewController.m in Sources */,
+				6DDAE15F2C5B68A500361882 /* UMTDAdBaseViewController.m in Sources */,
+				6DEF21CB2C352FAE00C6A5EE /* AppDelegate.m in Sources */,
+				6DA9DC642C77351200436B61 /* UbixMDBulletScreenManager.m in Sources */,
+				6DA9E4132C7ED79200436B61 /* UMTDNativeAdViewCell.m in Sources */,
+				6DDAE1662C5B6C2000361882 /* UMTDNativeViewController.m in Sources */,
+				6DEF21DC2C352FB100C6A5EE /* main.m in Sources */,
+				96A9BFF92F5AC7DC00E4C77E /* UMTDBannerViewController.m in Sources */,
+				6DA9DC652C77351200436B61 /* UbixMDBulletScreenModel.m in Sources */,
+				6DDAE1692C5B6C3300361882 /* UMTDRewardedVideoViewController.m in Sources */,
+				6DA6619A2C855AE80008AC74 /* UMTDSelfRenderNativeView.m in Sources */,
+				6DDAE16C2C5B6C4600361882 /* UMTDInterstitialViewController.m in Sources */,
+				6DEF21CE2C352FAE00C6A5EE /* SceneDelegate.m in Sources */,
+				6DCF48022DFAE86E003E6C44 /* UMTDAuthViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21DD2C352FB100C6A5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF21E62C352FB100C6A5EE /* UBiXMediationToolDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DEF21E72C352FB100C6A5EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DEF21F22C352FB100C6A5EE /* UBiXMediationToolDemoUITestsLaunchTests.m in Sources */,
+				6DEF21F02C352FB100C6A5EE /* UBiXMediationToolDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6DEF21E32C352FB100C6A5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEF21C52C352FAE00C6A5EE /* UBiXMediationToolDemo */;
+			targetProxy = 6DEF21E22C352FB100C6A5EE /* PBXContainerItemProxy */;
+		};
+		6DEF21ED2C352FB100C6A5EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6DEF21C52C352FAE00C6A5EE /* UBiXMediationToolDemo */;
+			targetProxy = 6DEF21EC2C352FB100C6A5EE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6DEF21D22C352FAE00C6A5EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DEF21D32C352FAE00C6A5EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6DEF21D72C352FB100C6A5EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6DEF21D82C352FB100C6A5EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6DEF21F32C352FB100C6A5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6DEF21F42C352FB100C6A5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6DEF21F62C352FB100C6A5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FAAD07A9EE4E44EBE064363B /* Pods-UBiXMediationToolDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STMP42R89R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UBiXMediationToolDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "获取IDFA有助于提供更优质的个性化服务及内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ld_classic",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"resolv.9\"",
+					"-l\"sqlite3\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppTrackingTransparency\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BUAdSDK\"",
+					"-framework",
+					"\"BaiduMobAdSDK\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CSJMediation\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KSAdSDK\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UbiXAdSDK\"",
+					"-framework",
+					"\"UbiXDaq\"",
+					"-framework",
+					"\"UbiXMediation\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-weak_framework",
+					"\"CoreML\"",
+					"-weak_framework",
+					"\"DeviceCheck\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaoyixia.kaihei;
+				PRODUCT_NAME = UBiMAX;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		6DEF21F72C352FB100C6A5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA232893520C8009792C8C4 /* Pods-UBiXMediationToolDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = STMP42R89R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UBiXMediationToolDemo/Info.plist;
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "获取IDFA有助于提供更优质的个性化服务及内容";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ld_classic",
+					"-ObjC",
+					"-l\"bz2\"",
+					"-l\"c++\"",
+					"-l\"c++abi\"",
+					"-l\"iconv\"",
+					"-l\"resolv\"",
+					"-l\"resolv.9\"",
+					"-l\"sqlite3\"",
+					"-l\"xml2\"",
+					"-l\"z\"",
+					"-framework",
+					"\"AVFoundation\"",
+					"-framework",
+					"\"AVKit\"",
+					"-framework",
+					"\"Accelerate\"",
+					"-framework",
+					"\"AdSupport\"",
+					"-framework",
+					"\"AppTrackingTransparency\"",
+					"-framework",
+					"\"AssetsLibrary\"",
+					"-framework",
+					"\"AudioToolBox\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"BUAdSDK\"",
+					"-framework",
+					"\"BaiduMobAdSDK\"",
+					"-framework",
+					"\"Bugly\"",
+					"-framework",
+					"\"CSJMediation\"",
+					"-framework",
+					"\"CoreData\"",
+					"-framework",
+					"\"CoreFoundation\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"CoreImage\"",
+					"-framework",
+					"\"CoreLocation\"",
+					"-framework",
+					"\"CoreMedia\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreServices\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"CoreText\"",
+					"-framework",
+					"\"EventKit\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"ImageIO\"",
+					"-framework",
+					"\"JavaScriptCore\"",
+					"-framework",
+					"\"KSAdSDK\"",
+					"-framework",
+					"\"MJRefresh\"",
+					"-framework",
+					"\"MapKit\"",
+					"-framework",
+					"\"Masonry\"",
+					"-framework",
+					"\"MediaPlayer\"",
+					"-framework",
+					"\"MessageUI\"",
+					"-framework",
+					"\"MobileCoreServices\"",
+					"-framework",
+					"\"Photos\"",
+					"-framework",
+					"\"Protobuf\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"QuickLook\"",
+					"-framework",
+					"\"SDWebImage\"",
+					"-framework",
+					"\"SafariServices\"",
+					"-framework",
+					"\"Security\"",
+					"-framework",
+					"\"StoreKit\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UIKit\"",
+					"-framework",
+					"\"UbiXAdSDK\"",
+					"-framework",
+					"\"UbiXDaq\"",
+					"-framework",
+					"\"UbiXMediation\"",
+					"-framework",
+					"\"WebKit\"",
+					"-framework",
+					"\"YYModel\"",
+					"-weak_framework",
+					"\"AppTrackingTransparency\"",
+					"-weak_framework",
+					"\"CoreML\"",
+					"-weak_framework",
+					"\"DeviceCheck\"",
+					"-weak_framework",
+					"\"WebKit\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaoyaoyixia.kaihei;
+				PRODUCT_NAME = UBiMAX;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		6DEF21F92C352FB100C6A5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B735E06438E311CCBCBDB171 /* Pods-UBiXMediationToolDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69GWBB48JZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubixai.UBiXMediationToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBiXMediationToolDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UBiXMediationToolDemo";
+			};
+			name = Debug;
+		};
+		6DEF21FA2C352FB100C6A5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D503828AEA3943BA8AE10C2 /* Pods-UBiXMediationToolDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69GWBB48JZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubixai.UBiXMediationToolDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UBiXMediationToolDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UBiXMediationToolDemo";
+			};
+			name = Release;
+		};
+		6DEF21FC2C352FB100C6A5EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69GWBB48JZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubixai.UBiXMediationToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = UBiXMediationToolDemo;
+			};
+			name = Debug;
+		};
+		6DEF21FD2C352FB100C6A5EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69GWBB48JZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ubixai.UBiXMediationToolDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = 1;
+				TEST_TARGET_NAME = UBiXMediationToolDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6DEF21C12C352FAE00C6A5EE /* Build configuration list for PBXProject "UBiXMediationToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF21F32C352FB100C6A5EE /* Debug */,
+				6DEF21F42C352FB100C6A5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEF21F52C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF21F62C352FB100C6A5EE /* Debug */,
+				6DEF21F72C352FB100C6A5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEF21F82C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF21F92C352FB100C6A5EE /* Debug */,
+				6DEF21FA2C352FB100C6A5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DEF21FB2C352FB100C6A5EE /* Build configuration list for PBXNativeTarget "UBiXMediationToolDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DEF21FC2C352FB100C6A5EE /* Debug */,
+				6DEF21FD2C352FB100C6A5EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DEF21BE2C352FAE00C6A5EE /* Project object */;
+}
