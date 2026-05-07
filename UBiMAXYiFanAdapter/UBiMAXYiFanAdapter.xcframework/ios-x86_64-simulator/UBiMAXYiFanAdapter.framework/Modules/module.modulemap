@@ -1,0 +1,6 @@
+framework module UBiMAXYiFanAdapter {
+  umbrella header "UBiMAXYiFanAdapter.h"
+  export *
+
+  module * { export * }
+}
