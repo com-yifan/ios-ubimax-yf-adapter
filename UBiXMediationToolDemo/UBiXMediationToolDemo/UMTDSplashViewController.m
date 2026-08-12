@@ -6,8 +6,7 @@
 //
 
 #import "UMTDSplashViewController.h"
-#import <UBiMAXAdSDK/UMTAdSDK.h>
-#import <UBiMAXSplash/UBiMAXSplash-umbrella.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 #import "UMTDLogger.h"
 #import "UbixMDBulletScreenManager.h"
 #import "Masonry/Masonry.h"

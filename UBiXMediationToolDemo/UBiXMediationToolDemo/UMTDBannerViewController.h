@@ -6,7 +6,7 @@
 //
 
 #import "UMTDAdBaseViewController.h"
-#import <UBiMAXAdSDK/UMTAdSDK.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

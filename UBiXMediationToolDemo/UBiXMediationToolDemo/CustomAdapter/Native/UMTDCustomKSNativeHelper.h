@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UBiMAXAdSDK/UBiMAXAdSDK-umbrella.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 #import <KSAdSDK/KSNativeAd.h>
 #import <KSAdSDK/KSNativeAdRelatedView.h>
 

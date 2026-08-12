@@ -6,8 +6,6 @@
 //
 
 #import "UMTDInterstitialViewController.h"
-#import <UBiMAXInterstitial/UBiMAXInterstitial-umbrella.h>
-#import <UBiMAXInterstitial/UMTAdManager+Interstitial.h>
 #import "UMTDSlotIdDefines.h"
 #import "UMTDLogger.h"
 #import "UbixMDBulletScreenManager.h"

@@ -6,8 +6,6 @@
 //
 
 #import "UMTDBannerViewController.h"
-#import <UBiMAXBanner/UBiMAXBanner-umbrella.h>
-#import <UBiMAXBanner/UMTAdManager+Banner.h>
 #import "UMTDSlotIdDefines.h"
 #import "UMTDLogger.h"
 #import "UbixMDBulletScreenManager.h"

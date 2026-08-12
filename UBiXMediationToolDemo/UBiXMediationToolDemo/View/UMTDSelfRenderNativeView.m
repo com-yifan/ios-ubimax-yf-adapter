@@ -9,8 +9,7 @@
 #import "UMTDNativeCellModel.h"
 #import <SDWebImage/SDWebImage.h>
 #import <Masonry/Masonry.h>
-#import <UBiMAXNative/UMTNative.h>
-#import <UBiMAXAdSDK/UMTAdnInfo.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 
 @interface UMTDMeidaContainerView ()
 

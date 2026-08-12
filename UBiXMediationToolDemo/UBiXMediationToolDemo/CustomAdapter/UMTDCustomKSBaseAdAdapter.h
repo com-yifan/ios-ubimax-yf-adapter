@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <UBiMAXAdSDK/UBiMAXAdSDK-umbrella.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

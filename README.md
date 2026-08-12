@@ -13,7 +13,7 @@
 ## 2. 版本信息
 
 - 适配器：`UBiMAXYiFanAdapter`
-- 当前版本：`6.1.1.0`
+- 当前版本：`6.1.4.0`
 - 最低支持 iOS：`11.0`
 
 ---
@@ -23,9 +23,8 @@
 ### 3.1 基础依赖
 
 ```ruby
-pod 'UBiMAXAdSDK', '1.5.0'
-pod 'UBiMAXSplash', '1.1.0'
-pod 'UBiMAXInterstitial', '1.2.0'
+pod 'UBiddingAdSDK', '4.0.1'
+pod 'UBiddingUBiXAdapter', '2.11.0.1'
 ```
 
 ### 3.2 亿帆适配器及依赖
@@ -33,26 +32,24 @@ pod 'UBiMAXInterstitial', '1.2.0'
 亿帆SDK对接文档：[亿帆SDK技术对接文档](https://qx4iltcdihd.feishu.cn/wiki/CXMqwZzHXiBecikGlhPcYe34nQd)
 
 ```ruby
-# 亿帆 SDK
-pod 'YFAdsSDK', '6.1.1.0'
-# 亿帆适配器
-pod 'UBiMAXYiFanAdapter', '6.1.1.0'
-# 百度
-pod 'BaiduMobAdSDK', '10.050'
-# 优量汇
-pod 'GDTMobSDK', '4.15.80'
-# 京东
+# 亿帆SDK【必须】
+pod 'YFAdsOLSDK', '6.1.4.0'
+#  百度【必须】
+pod 'BaiduMobAdSDK','10.050'
+# 优量汇【必须】
+pod 'GDTMobSDK' ,'4.16.00'
+# 京东【必须】
 pod 'JADYun', '2.6.8'
-pod 'JADYunMotion', '2.6.8'
-# 穿山甲
-pod 'Ads-CN', '7.5.0.7', :subspecs => ['BUAdSDK', 'CSJMediation', 'BUAdLive-Framework']
-# Gromore Adn 适配器
-pod 'GMBaiduAdapter', '10.032.1'
-pod 'GMGdtAdapter', '4.15.75.0'
-pod 'GMKsAdapter', '4.12.20.1.0'
-# 快手
-pod 'KSAdSDK', '5.3.20.1'
-# 微信 OpenSDK
+pod 'JADYunMotion', '2.6.8'  #京东摇一摇组件
+# 穿山甲【必须】⚠️注意：旧版本有 按照2.3-1方式集成 的，需要去掉 TTSDKFramework
+pod 'Ads-CN', '7.7.0.5', :subspecs => ['BUAdSDK','CSJMediation','BUAdLive-Framework']
+# Gromore-Adn适配器
+pod 'GMBaiduAdapter', '10.050.1'
+pod 'GMGdtAdapter', '4.15.80.2'
+pod 'GMKsAdapter', '5.3.20.1.2'
+# 快手【必须】
+pod 'KSAdSDK','5.6.10.1'
+# 微信OpenSDK【必须】，如App内已通过其他方式集成OpenSDK，无需再次集成
 pod 'WechatOpenSDK-XCFramework'
 ```
 

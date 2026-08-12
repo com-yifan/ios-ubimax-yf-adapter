@@ -6,12 +6,12 @@
 //
 
 #import "ViewController.h"
-#import <UBiMAXAdSDK/UMTAdSDKManager.h>
+#import <UBiddingAdSDK/UMTAdSDKManager.h>
 #import "UMTDSlotIdDefines.h"
 #import "UMTDAdBaseViewController.h"
 #import "UMTDAuthViewController.h"
 #import "AppDelegate.h"
-#import <UBiMAXDebuggerUI/UMTDebuggerUIManager.h>
+//#import <UBiMAXDebuggerUI/UMTDebuggerUIManager.h>
 
 @interface ViewController () <UITableViewDataSource, UITableViewDelegate>
 
@@ -112,13 +112,13 @@
     [super viewDidAppear:animated];
     
     // 测试工具展示入口
-    [[UMTDebuggerUIManager sharedManager] showDebugEntranceUI];
+//    [[UMTDebuggerUIManager sharedManager] showDebugEntranceUI];
     // 自定义跳转测试工具页
     //[[UMTDebuggerUIManager sharedManager] customDebugEntrance];
 }
 
 - (void)setupAdEntry {
-    self.title = [NSString stringWithFormat:@"UBiMAXAdSDK v%@", [UMTAdSDKManager SDKVersion]];
+    self.title = [NSString stringWithFormat:@"UBiddingAdSDK v%@", [UMTAdSDKManager SDKVersion]];
     
     [self.view addSubview:self.tableView];
     [self.tableView reloadData];

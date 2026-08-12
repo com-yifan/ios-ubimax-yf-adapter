@@ -6,8 +6,7 @@
 //
 
 #import "UMTDRewardedVideoViewController.h"
-#import <UBiMAXRewardedVideo/UBiMAXRewardedVideo-umbrella.h>
-#import <UBiMAXRewardedVideo/UMTAdManager+RewardedVideo.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 #import "UMTDSlotIdDefines.h"
 #import "UMTDLogger.h"
 #import "UbixMDBulletScreenManager.h"

@@ -17,62 +17,28 @@ target 'UBiXMediationToolDemo' do
 #  gm_release_target!
 #  pod 'UBiMAXAdSDK', :path=>'./UBiMAXSDK/', :subspecs => ['Core']
 
-   # 核心逻辑
-   pod 'UBiMAXAdSDK', '1.5.0'
-   # 开屏
-   pod 'UBiMAXSplash', '1.1.0'
-   # 信息流
-   pod 'UBiMAXNative', '1.1.1'
-   # 激励
-   pod 'UBiMAXRewardedVideo', '1.1.0'
-   # 插屏
-   pod 'UBiMAXInterstitial', '1.2.0'
-   # 横幅
-   pod 'UBiMAXBanner', '1.3.1'
-   # 测试工具
-   pod 'UBiMAXDebuggerUI', '1.0.1'
-   
-   # Gromore Adapter
-   pod 'UBiMAXGromoreAdapter', '7.5.0.4.0'
-   # 穿山甲 Adapter
-   #pod 'UBiMAXCSJAdapter', '7.5.0.4.0'
-   # 快手 Adapter
-   pod 'UBiMAXKSAdapter', '5.1.20.1.0'
-   # 优量汇 Adapter
-   pod 'UBiMAXGdtAdapter', '4.15.75.0'
-   # 百度 Adapter
-   pod 'UBiMAXBaiduAdapter', '10.040.0'
-   # 趣盟 Adapter
-   pod 'UBiMAXQuMengAdapter', '1.5.1.0.0'
-   # TopOn Adapter
-   pod 'UBiMAXTopOnAdapter', '6.5.42.0'
-   # Fancy
-   pod 'UBiMAXFancyAdapter', '2.3.6.0'
-   # 美数
-   pod 'UBiMAXMeiShuAdapter',   '3.0.7.3.0'
-   # 旺脉
-   pod 'UBiMAXWangMaiAdapter', '7.7.4.30.0'
-
-   #聚合Adx
-   pod 'UBiMAXAdxAdapter', '2.12.2.11.0'
-   pod 'UBiXMediationSDK', '2.12.2.11'
-   pod 'UBiXMKSAdapter', '5.1.20.1.0'
-   pod 'UBiXMUBiXAdapter', '2.10.0.11.0'
-   pod 'UBiXMBaiduAdapter', '10.040.0'
-   pod 'UBiXMGromoreAdapter', '7.5.0.4.0'
-#   pod 'UBiXMCSJAdapter', '7.5.0.4.0'
-   pod 'UBiXMGdtAdapter', '4.15.75.0'
-   pod 'UBiXMQMAdapter', '1.5.1.0.0'
-   pod 'UbiXMMeiYueAdapter', '5.8.53.0'
-   pod 'EdimobIOSAdsSDK', '5.8.53', :subspecs  => ['Core','CocoaHTTPServer','SDWebImage','Masonry','KSCrash','WechatOpenSDK']
-   pod 'UBiXMYoushiAdapter', '3.1.0.9.0'
-   pod 'UBiXMFancyAdapter', '2.3.6.0'
-   pod 'UBiXMWangMaiAdapter', '7.7.4.30.1'
-   pod 'UBiXMIFLYAdapter', '5.4.6.0'
+   pod 'UBiddingAdSDK', '4.0.1'
+  pod 'UBiddingUBiXAdapter', '2.11.0.1'
+  pod 'UBiddingBaiduAdapter', '10.051.0'
+  #pod 'UBiddingCSJAdapter', '7.6.1.7.0'
+  pod 'UBiddingFancyAdapter', '2.3.10.2'
+  pod 'UBiddingGdtAdapter', '4.15.90.3'
+  pod 'UBiddingGromoreAdapter', '7.6.1.7.0'
+  pod 'UBiddingIQiYiAdapter', '2.5.002.1'
+  pod 'UBiddingJTAdapter', '4.2.3.1.1'
+#  pod 'UBiddingKSAdapter', '5.5.10.1.0'
+  pod 'UBiddingMeiShuAdapter', '3.0.9.1.2'
+  pod 'UBiddingQuMengAdapter', '1.6.0.5.0'
+  pod 'UBiddingTopOnAdapter', '6.5.42.2'
+  pod 'UBiddingWangMaiAdapter', '7.8.4.32.2'
+  pod 'UBiddingJTAdapter','4.2.3.1.1'
+  pod 'UBiddingMeiYueAdapter', '5.9.06.0'
+  pod 'EdimobIOSAdsSDK', '5.9.06', :subspecs => ['Core', 'CocoaHTTPServer', 'SDWebImage', 'Masonry', 'KSCrash', 'WechatOpenSDK']
+  pod 'UBiddingYoushiAdapter', '3.1.0.9.0'
    # 亿帆SDK
-   pod 'YFAdsSDK/YFAdsSDK','6.1.1.0'
+   pod 'YFAdsSDK/YFAdsSDK','6.1.4.0'
    # 亿帆适配器
-   pod 'UBiMAXYiFanAdapter','6.1.1.0'
+   pod 'UBiMAXYiFanAdapter','6.1.4.0'
    
    
    pod 'Bugly'

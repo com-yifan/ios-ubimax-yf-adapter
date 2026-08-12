@@ -10,7 +10,7 @@
 #define kPadding 80
 #define kViewHeight            ScreenHeight - 80 * 2.0
 
-NSString * const UMTDemoPrivacyUrl = @"https://www.ubixai.com/ubix_sdk_ubimax_privacy.html";
+NSString * const UMTDemoPrivacyUrl = @"https://ubixai.com/ubix_sdk_ubidding_privacy.html";
 
 NSString * const UMTDemoAuthorized = @"UMTDemoAuthorized";
 

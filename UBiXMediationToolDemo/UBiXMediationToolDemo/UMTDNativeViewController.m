@@ -6,8 +6,7 @@
 //
 
 #import "UMTDNativeViewController.h"
-#import <UBiMAXNative/UBiMAXNative-umbrella.h>
-#import <UBiMAXAdSDK/UMTAdSDK.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 #import "UMTDLogger.h"
 #import "UbixMDBulletScreenManager.h"
 #import "Masonry/Masonry.h"
@@ -201,7 +200,7 @@
     [[UbixMDBulletScreenManager sharedInstance] showWithText:msg];
 }
 
-/// 信息流，视频播放进度, 仅支持 Gdt，UBiMAXAdx
+/// 信息流，视频播放进度, 仅支持 Gdt，UBiddingAdx
 ///  @param time 播放进度，单位： ms
 ///  @param duration 视频时长，单位：ms
 - (void)umtNativeAd:(UMTNative *)native offer:(UMTNativeOffer *)offer didChangedPlayTime:(CGFloat)time duration:(CGFloat)duration extra:(NSDictionary *)extra {

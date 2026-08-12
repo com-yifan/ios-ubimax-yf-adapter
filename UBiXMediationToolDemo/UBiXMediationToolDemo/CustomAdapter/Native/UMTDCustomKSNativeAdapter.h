@@ -6,7 +6,7 @@
 //
 
 #import "UMTDCustomKSBaseAdAdapter.h"
-#import <UBiMAXAdSDK/UBiMAXAdSDK-umbrella.h>
+#import <UBiddingAdSDK/UBiddingAdSDK-umbrella.h>
 #import <KSAdSDK/KSAdSDK.h>
 #import "UMTDLogger.h"
 
