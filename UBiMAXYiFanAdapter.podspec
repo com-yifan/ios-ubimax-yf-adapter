@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "UBiMAXYiFanAdapter"
-  s.version          = "6.1.4.0"
+  s.version          = "6.1.4.0.1"
   s.summary          = "UBiMAXYiFanAdapter for UbiMax"
   s.description      = <<-DESC
   GMYFAdapter 提供YF广告适配支持。
